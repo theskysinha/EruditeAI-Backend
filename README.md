@@ -8,7 +8,7 @@
 
 Introduction
 
-This is a systeion answering chat application built on python using the [Lang-chain framework](https://python.langchain.com/docs/get_started/introduction) that allows the user to upload the PDF and ask questions about the PDF. This appliation will provide relevant response based on the content of the documents. The use of [Google Flant T5](https://huggingface.co/google/flan-t5-xxl) model is done to generate accurate answers to the queries.
+This is a question answering chat application built on python using the [Lang-chain framework](https://python.langchain.com/docs/get_started/introduction) that allows the user to upload the PDF and ask questions about the PDF. This appliation will provide relevant response based on the content of the documents. The use of [Google Flant T5](https://huggingface.co/google/flan-t5-xxl) model is done to generate accurate answers to the queries.
 
 This app is built using python's library [Streamlit](https://docs.streamlit.io/) an is hosted on Streamlit community cloud
 
