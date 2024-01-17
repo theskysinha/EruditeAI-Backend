@@ -10,7 +10,7 @@ Introduction
 
 This is a systeion answering chat application built on python that allows the user to upload the PDF and ask questions about the PDF. This appliation will provide relevant response based on the content of the documents. The use of [Google Flant T5](https://huggingface.co/google/flan-t5-xxl) model is done to generate accurate answers to the queries.
 
-This app is built using python's library streamlit an is hosted on Streamlit community cloud
+This app is built using python's library [Streamlit](https://docs.streamlit.io/) an is hosted on Streamlit community cloud
 
 Working of the model
 
@@ -29,7 +29,7 @@ How to run the app?
    '''
    pip install -r requirements.txt
    '''
-3. Obtain the API key from Hugging Face and add it to the '.env' file in the project directory.
+3. Obtain the API key from Hugging Face and add it to the  '.env'  file in the project directory.
 4. Run the 'app.py' file using the Streamlit CLI. Execute the following:
    '''
    streamlit run app.py
@@ -37,4 +37,9 @@ How to run the app?
 5. The application will launch in your default web browser, displaying the user interface.
 6. Uplaod the PDF and click on start, Till the time the data is being processed, you will see _processsing data..._ on your screen.
 7. After the data is processed, you can ask any questions about the data.
+
+<img width="1120" alt="image" src="https://github.com/Ariaa22/LLM_Question_Answering/assets/91372517/4172dd13-12b2-4258-9485-9cd7e8c9801b">
+<img width="1120" alt="image" src="https://github.com/Ariaa22/LLM_Question_Answering/assets/91372517/3b156858-2b73-4c85-8f33-bc2bdfc15958">
+
+
 
